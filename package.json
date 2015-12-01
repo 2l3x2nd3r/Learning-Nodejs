@@ -1,0 +1,33 @@
+{
+  "name": "firststep",
+  "version": "0.0.0",
+  "description": "Learning Nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/2l3x2nd3r/learning-nodejs.git"
+  },
+  "author": "Alexander Taborda",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "body-parser": "latest",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^0.8.2",
+    "cookie-parser": "latest",
+    "ejs": "latest",
+    "express": "^4.13.3",
+    "express-session": "latest",
+    "mongoose": "latest",
+    "morgan": "^1.6.1",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.0.0",
+    "passport-google-oauth": "^0.2.0",
+    "passport-linkedin": "^1.0.0",
+    "passport-local": "^1.0.0"
+  }
+}
